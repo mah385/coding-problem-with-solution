@@ -1,4 +1,4 @@
-package pending;
+package strings;
 
 //Question: WAP to remove vowels in a given string.
 public class RemoveVowelInAString {

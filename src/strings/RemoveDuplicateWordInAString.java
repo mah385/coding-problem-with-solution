@@ -1,4 +1,4 @@
-package pending;
+package strings;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

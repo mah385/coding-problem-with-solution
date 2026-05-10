@@ -1,4 +1,4 @@
-package pending;
+package strings;
 
 //Question: WAP to remove consonants in a given string.
 public class RemoveConsonantInAString {
