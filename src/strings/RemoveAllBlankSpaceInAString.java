@@ -3,7 +3,7 @@ package strings;
 //Question: WAP to remove all blank spaces in a given string
 public class RemoveAllBlankSpaceInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("removeAllBlankSpaceInAStringApproach1: " + removeAllBlankSpaceInAStringApproach1("the brown fox jumps over the lazy dog"));
         System.out.println("removeAllBlankSpaceInAStringApproach2: " + removeAllBlankSpaceInAStringApproach2("the brown fox jumps over the lazy dog"));
     }
@@ -23,7 +23,7 @@ public class RemoveAllBlankSpaceInAString {
 
     private static String removeAllBlankSpaceInAStringApproach2(String string) {
         if (string != null && !string.isBlank()) {
-            return string.replaceAll(" ", "");
+            return string.replace(" ", "");
         }
         return null;
     }

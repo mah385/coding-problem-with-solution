@@ -2,7 +2,8 @@ package strings;
 
 //Question: WAP A pangram is a sentence that contains every letter of the alphabet at least once.
 public class Pangram {
-    public static void main(String[] args) {
+
+    static void main(String[] args) {
         String sentence = "The quick brown fox jumps over the lazy dog";
         boolean isPangram = checkPangram(sentence);
         if (isPangram) {

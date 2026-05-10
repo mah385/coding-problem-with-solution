@@ -5,7 +5,7 @@ import java.util.Arrays;
 //Question: WAP to calculate the total sum of the given integer array
 public class CalculateTotalSum {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] integerArray = {6, 3, 5, 4, 3, 2, 4, 5};
         System.out.println("calculateTotalSumOfAnIntegerArrayApproach1: " + calculateTotalSumOfAnIntegerArrayApproach1(integerArray));
         System.out.println("calculateTotalSumOfAnIntegerArrayApproach2: " + calculateTotalSumOfAnIntegerArrayApproach2(integerArray));

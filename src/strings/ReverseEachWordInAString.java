@@ -5,7 +5,7 @@ import java.util.ArrayList;
 //Question: WAP to reverse each word in a given string
 public class ReverseEachWordInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("reverseEachWordInAString: " + reverseEachWordInAString("The Brown Fox Jumps Over The Lazy Dog"));
     }
 

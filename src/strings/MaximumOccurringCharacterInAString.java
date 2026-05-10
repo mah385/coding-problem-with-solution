@@ -6,7 +6,7 @@ import java.util.Map;
 //Question: WAP to find and print maximum occurring character in a string
 public class MaximumOccurringCharacterInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         findAndPrintMaximumOccurringCharacterInAString("the brown fox jumps over a lazy dog");
     }
 

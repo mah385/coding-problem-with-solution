@@ -3,7 +3,7 @@ package strings;
 //Question: WAP to count the number of vowels and consonants in a string.
 public class CountVowelAndConsonantInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         countVowelAndConsonant("87_ Hello World 234&*%&^$]{[}^%(*%6213576");
     }
 

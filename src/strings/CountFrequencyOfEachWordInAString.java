@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 //Question: WAP to count frequency of each word in a given string
 public class CountFrequencyOfEachWordInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("countFrequencyOfEachWordInAString: " + countFrequencyOfEachWordInAString("this is a test string this is a test"));
     }
 

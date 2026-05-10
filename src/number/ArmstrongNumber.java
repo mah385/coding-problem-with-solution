@@ -5,7 +5,7 @@ import java.util.Arrays;
 //Question: WAP to check whether a given number is Armstrong number
 public class ArmstrongNumber {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         for (int i = 10; i < 10000; i++) { //Note: for loop is not required
             System.out.println("i: " + i + " ---> " + checkForArmstrongNumber(i));
         }

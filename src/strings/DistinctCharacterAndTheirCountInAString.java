@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 //Question: WAP to find distinct characters and their count in a string
 public class DistinctCharacterAndTheirCountInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         String str = "this is test hello world";
         System.out.println("findDistinctCharacterAndTheirCountInAStringApproach1: " + findDistinctCharacterAndTheirCountInAStringApproach1(str));
         System.out.println("findDistinctCharacterAndTheirCountInAStringApproach2: " + findDistinctCharacterAndTheirCountInAStringApproach2(str));
@@ -17,7 +17,7 @@ public class DistinctCharacterAndTheirCountInAString {
     private static Map<Character, Integer> findDistinctCharacterAndTheirCountInAStringApproach1(String str) {
 //        Map<Character, Integer> characterIntegerHashMap = new HashMap<>();
         Map<Character, Integer> characterIntegerHashMap = new LinkedHashMap<>(); //use LinkedHashMap and observe the result
-        for (char ch : str.replaceAll(" ", "").toCharArray()) {
+        for (char ch : str.replace(" ", "").toCharArray()) {
             characterIntegerHashMap.put(ch, characterIntegerHashMap.getOrDefault(ch, 0) + 1);
         }
         System.out.println(characterIntegerHashMap);
@@ -26,7 +26,7 @@ public class DistinctCharacterAndTheirCountInAString {
     }
 
     private static Map<String, Long> findDistinctCharacterAndTheirCountInAStringApproach2(String str) {
-        return Arrays.stream(str.replaceAll(" ", "").split(""))
+        return Arrays.stream(str.replace(" ", "").split(""))
                 .collect(Collectors.groupingBy(s -> s, Collectors.counting()))
                 .entrySet()
                 .stream()

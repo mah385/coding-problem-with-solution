@@ -6,7 +6,7 @@ import java.util.LinkedList;
 //Question: WAP to reverse the given integer array using LinkedList
 public class ReverseUsingLinkedList {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] integerArray = {5, 3, 2, 8, 4, 7, 6, 1};
         System.out.println("Before reversing: " + Arrays.toString(integerArray));
         System.out.println("After reversing: " + reverseIntegerArrayUsingLinkedList(integerArray));

@@ -8,7 +8,7 @@ import java.util.Optional;
 //Note: Other approaches are not shown
 public class FindSecondHighestNumber {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] integerArray = {2, 6, 3, 1, 8, 5, 4, 9, 8, 7, 2, 8, 5};
         System.out.println("findSecondHighestNumberInAnIntegerArray: " + findSecondHighestNumberInAnIntegerArray(integerArray));
     }

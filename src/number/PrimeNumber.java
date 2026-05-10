@@ -3,7 +3,7 @@ package number;
 //Question: WAP to check whether a given number is Prime number
 public class PrimeNumber {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("checkForPrimeNumber: " + checkForPrimeNumber(3));
     }
 

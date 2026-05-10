@@ -3,7 +3,7 @@ package strings;
 //Question: WAP to count frequency of each word in a given string
 public class CountGivenCharacterFrequencyInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("countGivenCharacterFrequencyInAString: " + countGivenCharacterFrequencyInAString("this is a test value", 's'));
     }
 

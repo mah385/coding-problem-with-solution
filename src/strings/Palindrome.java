@@ -3,7 +3,7 @@ package strings;
 //Question: WAP to check whether a given string is Palindrome
 public class Palindrome {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("checkForPalindromeApproach1: " + checkForPalindromeApproach1("malayalam"));
         System.out.println("checkForPalindromeApproach2: " + checkForPalindromeApproach2("madam"));
     }

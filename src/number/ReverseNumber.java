@@ -3,8 +3,8 @@ package number;
 //Question: WAP to reverse a given number
 public class ReverseNumber {
 
-    public static void main(String[] args) {
-        int  number = 12345; // Example number
+    static void main(String[] args) {
+        int number = 12345; // Example number
         System.out.println("reverseNumberUsingApproach1(number): " + reverseNumberUsingApproach1(number));
         System.out.println("reverseNumberUsingApproach2(number): " + reverseNumberUsingApproach2(number));
     }

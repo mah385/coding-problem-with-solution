@@ -3,7 +3,7 @@ package strings;
 //Question: WAP to check whether a given string contains vowel letters
 public class VowelCharacterInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("checkForVowelCharacterInAStringApproach1: " + checkForVowelCharacterInAStringApproach1("Hello World"));
         System.out.println("checkForVowelCharacterInAStringApproach2: " + checkForVowelCharacterInAStringApproach2("Hello World"));
     }

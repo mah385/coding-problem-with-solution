@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 //Question: WAP to perform various collection operations using two given integer arrays
 public class VariousCollectionOperationUsingTwoArray {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] arr1 = {17, 5, 27, 23, 87, 47, 28, 3};
         int[] arr2 = {17, 65, 18, 43, 27, 5, 41};
 
@@ -21,4 +21,5 @@ public class VariousCollectionOperationUsingTwoArray {
         arr1List.removeAll(arr2List);
 
     }
+
 }

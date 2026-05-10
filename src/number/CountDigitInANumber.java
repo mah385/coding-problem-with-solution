@@ -7,11 +7,11 @@ import java.util.stream.Collectors;
 //Question: WAP to count digits, unique digits and duplicate digits in a given number
 public class CountDigitInANumber {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         long number = 669_412_537_612L;
-        System.out.println("countDigitInANumber: "+countDigitInANumber(number));
-        System.out.println("countUniqueDigitInANumber: "+countUniqueDigitInANumber(number));
-        System.out.println("countDuplicateDigitInANumber: "+ countDuplicateDigitInANumber(number));
+        System.out.println("countDigitInANumber: " + countDigitInANumber(number));
+        System.out.println("countUniqueDigitInANumber: " + countUniqueDigitInANumber(number));
+        System.out.println("countDuplicateDigitInANumber: " + countDuplicateDigitInANumber(number));
     }
 
     private static int countDigitInANumber(long number) {

@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 //Question: WAP to find the missing number in the given series
 public class MissingNumberInASeries {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] integerArray = {6, 3, 5, 4, 3, 2, 8, 4, 5, 1, 9};
         int missingNumberInASeries = findMissingNumberInASeries(integerArray);
         System.out.println("missingNumberInASeries: " + missingNumberInASeries);

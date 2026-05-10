@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 //Question: WAP to check whether given two strings are Anagram
 public class Anagram {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("checkForAnagram(listen, silent): " + checkForAnagram("listen", "silent"));
         System.out.println("checkForAnagram(hello, world): " + checkForAnagram("hello", "world"));
     }

@@ -3,7 +3,7 @@ package number;
 //Question: WAP to calculate the factorial of the given number
 public class FactorialNumber {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("calculateFactorial: " + calculateFactorial(5));
     }
 

@@ -4,7 +4,7 @@ package number;
 public class FibonacciSeries {
 
     //Output: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34,
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int count = 10;
         System.out.print("Fibonacci: ");
         for (int i = 0; i < count; i++) {

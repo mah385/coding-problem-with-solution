@@ -5,7 +5,7 @@ import java.util.Arrays;
 //Question: WAP to check whether the given integer array contains only odd numbers
 public class ContainsOnlyOddNumbers {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] integerArray1 = {17, 65, 43, 27, 5, 41};      //contains only odd numbers
         int[] integerArray2 = {17, 65, 18, 43, 27, 5, 41};  //contains both odd and even numbers
 

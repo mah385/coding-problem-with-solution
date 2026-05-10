@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 //Question: WAP to remove duplicate digits from a given number
 public class RemoveDuplicateNumber {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         long number = 669_412_537_612L;
         System.out.println("removeDuplicateNumber(number): " + removeDuplicateNumber(number));
     }

@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 //Question: WAP to capitalize each word of the given string
 public class CapitalizeEachWordInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("capitalizeEachWordInAString: " + capitalizeEachWordInAString("the brOWn fox JumPS over the lAZy Dog."));
         //Output: The Brown Fox Jumps Over The Lazy Dog.
     }

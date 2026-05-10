@@ -3,7 +3,7 @@ package number;
 //Question: WAP to swap two numbers without using third variable
 public class SwapTwoNumber {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         swapTwoInteger(4, 17);
     }
 

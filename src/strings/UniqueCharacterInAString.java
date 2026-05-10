@@ -5,7 +5,7 @@ import java.util.HashSet;
 //Question: WAP to check whether a given string contains only unique characters
 public class UniqueCharacterInAString {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println("checkForUniqueCharacterInAString(Hello): " + checkForUniqueCharacterInAString("Hello"));
         System.out.println("checkForUniqueCharacterInAString(World): " + checkForUniqueCharacterInAString("World"));
     }

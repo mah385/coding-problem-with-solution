@@ -6,7 +6,8 @@ import java.util.stream.Collectors;
 
 //Question: WAP to sort hash map by value
 public class SortHashMapByValue {
-    public static void main(String[] args) {
+
+    static void main(String[] args) {
         Map<String, Integer> scores = new LinkedHashMap<>();
 
         scores.put("Ravid", 95);
@@ -30,4 +31,5 @@ public class SortHashMapByValue {
 
         System.out.println("scoresSorted: " + scoresSorted);
     }
+
 }
