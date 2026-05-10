@@ -30,8 +30,8 @@
 ## strings:
 #### //Question: WAP to check whether given two strings are Anagram
 #### //Question: WAP to capitalize each word of the given string
-#### //Question: WAP to count frequency of each word in a given string
-#### //Question: WAP to count frequency of each word in a given string
+#### //Question: WAP to count frequency of each word in a string
+#### //Question: WAP to count frequency of given character in a string
 #### //Question: WAP to count the number of vowels and consonants in a string.
 #### //Question: WAP to find distinct characters and their count in a string
 #### //Question: WAP to find first non-repeating character in a string

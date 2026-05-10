@@ -1,7 +1,7 @@
 package strings;
 
-//Question: WAP to count frequency of each word in a given string
-public class CountGivenCharacterFrequencyInAString {
+//Question: WAP to count frequency of given character in a string
+public class CountFrequencyOfGivenCharacterInAString {
 
     static void main(String[] args) {
         System.out.println("countGivenCharacterFrequencyInAString: " + countGivenCharacterFrequencyInAString("this is a test value", 's'));

@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-//Question: WAP to count frequency of each word in a given string
+//Question: WAP to count frequency of each word in a string
 public class CountFrequencyOfEachWordInAString {
 
     static void main(String[] args) {
