@@ -35,6 +35,7 @@
 #### //Question: WAP to count the number of vowels and consonants in a string.
 #### //Question: WAP to find distinct characters and their count in a string
 #### //Question: WAP to find first non-repeating character in a string
+#### //Question: WAP to find first repeating character in a string
 #### //Question: WAP to find and print maximum occurring character in a string
 #### //Question: WAP to check whether a given string is Palindrome
 #### //Question: WAP to check for pangram. A pangram is a sentence that contains every letter of the alphabet at least once.
@@ -47,5 +48,3 @@
 #### //Question: WAP to check whether a given string contains vowel letters
 
 ==================================================================================
-
-## patterns:
